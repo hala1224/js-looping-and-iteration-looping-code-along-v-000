@@ -8,9 +8,9 @@ function printBadges(names) {
 }
 
 	function tailsNeverFails() {
-	  return Math.random() >= 0.5;
-}
- 
-while (maybeTrue()) {
-    console.log('And I ran... I ran so far away!');
+	  let count=0;
+	  let tails= Math.random();
+	  if (tails >= 0.5) {
+       count+=1;
+	  }
 	}
