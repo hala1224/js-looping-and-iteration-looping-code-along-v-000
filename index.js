@@ -27,5 +27,5 @@ function printBadges(names) {
       while (maybeTrue()) {
         count+=1;
       }
-      console.log(`You got ${count} tails in a row!`);
+      return `You got ${count} tails in a row!`;
   }
