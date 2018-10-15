@@ -20,12 +20,12 @@ function printBadges(names) {
 	let count=0;
 	function tailsNeverFails() {
 
-  function maybeTrue() {
-    return Math.random() >= 0.5;
-  }
+     function maybeTrue() {
+       return Math.random() >= 0.5;
+     }
  
-  while (maybeTrue()) {
-    count+=1;
-  }
-  console.log(`You got ${count} tails in a row!`);
+      while (maybeTrue()) {
+        count+=1;
+      }
+      console.log(`You got ${count} tails in a row!`);
   }
