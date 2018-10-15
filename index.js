@@ -17,9 +17,9 @@ function printBadges(names) {
 // 	    console.log(`You got ${count} tails in a row!`);
 // 	  }
 // 	}
-	let count=0;
+// 	let count=0;
 	function tailsNeverFails() {
-
+    let count=0;
      function maybeTrue() {
        return Math.random() >= 0.5;
      }
